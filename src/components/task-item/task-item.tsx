@@ -124,7 +124,7 @@ export const TaskItem: React.FC<TaskItemProps> = props => {
         fill={getTextColor()}
         ref={textRef}
       >
-        {task.name}
+        {task.role}: {task.progress}%
       </text>
     </g>
   );
