@@ -33,6 +33,7 @@ export interface Task {
   hideChildren?: boolean;
   displayOrder?: number;
   role?: string;
+  projectMemberId?: string;
 }
 
 export interface EventOption {
